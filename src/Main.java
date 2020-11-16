@@ -1,4 +1,6 @@
 import DecoratorPattern.decorator1;
+import DecoratorPattern.decorator2;
+import DecoratorPattern.decorator4;
 import FactoryPattern.FactoryPattern;
 import FactoryPattern.factory;
 import static java.lang.System.exit;
