@@ -7,6 +7,9 @@ import FactoryPattern.factory;
 import IteratorPattern.iterator1;
 import IteratorPattern.iterator2;
 import IteratorPattern.iterator3;
+import IteratorPattern.iterator5;
+import IteratorPattern.iterator6;
+import IteratorPattern.iterator7;
 import static java.lang.System.exit;
 import java.util.Scanner;
 
