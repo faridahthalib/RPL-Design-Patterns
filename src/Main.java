@@ -1,4 +1,5 @@
 import DecoratorPattern.decorator1;
+import DecoratorPattern.decorator2;
 import FactoryPattern.FactoryPattern;
 import FactoryPattern.factory;
 import static java.lang.System.exit;
@@ -105,7 +106,6 @@ public class Main {
         decorator1 panggil = new decorator5(new decorator4(new decorator2()));
         switch (pilih) {
             case 1:
-                System.out.println("Nilai dan Sumber cerita 1:");
                 System.out.println(panggil.getCerita1());
                 break;
             case 2:
