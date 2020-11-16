@@ -1,6 +1,7 @@
 import DecoratorPattern.decorator1;
 import DecoratorPattern.decorator2;
 import DecoratorPattern.decorator4;
+import DecoratorPattern.decorator5;
 import FactoryPattern.FactoryPattern;
 import FactoryPattern.factory;
 import static java.lang.System.exit;
@@ -27,7 +28,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.println("Selamat datang di Katalog Cerita Rakyat Kalsel! \n\nBerikut adalah list cerita rakyat yang tersedia:\n"
                 + "1.Anak Sima\n2.Asal Mula Sungai Barito\n3.Batu Kasiangan\n4.Kisah Asal Mula Marabahan\n5.Nisan Berlumur Darah\n\n"
-                + "Apa yang ingin Anda lihat?\n\n1. Ringkasan cerita\n2. Detail cerita\n3. Nilai dan sumber cerita\n4. Keluar\n");
+                + "Apa yang ingin Anda lihat?\n1. Ringkasan cerita\n2. Detail cerita\n3. Nilai dan sumber cerita\n4. Keluar\n");
                
         do {
             System.out.println("Masukkan Pilihan(1/2/3/4):");
