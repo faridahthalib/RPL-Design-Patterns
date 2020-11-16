@@ -1,24 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
+import DecoratorPattern.decorator1;
 import FactoryPattern.FactoryPattern;
 import FactoryPattern.factory;
 import static java.lang.System.exit;
 import java.util.Scanner;
 
-/**
- *
- * @author Faridah
- */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         try
         {
@@ -109,7 +96,33 @@ public class Main {
     }
 
     private void NilaiSumber() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        Scanner input = new Scanner(System.in);
+        int pilih = 0;
+        System.out.println("\nSilakan pilih cerita:\n"
+                + "1.Anak Sima\n2.Asal Mula Sungai Barito\n3.Batu Kasiangan\n4.Kisah Asal Mula Marabahan\n5.Nisan Berlumur Darah\n\nMasukkan pilihan (1/2/3/4/5):");
+        
+        pilih = input.nextInt();
+        decorator1 panggil = new decorator5(new decorator4(new decorator2()));
+        switch (pilih) {
+            case 1:
+                System.out.println(panggil.getCerita1());
+                break;
+            case 2:
+                System.out.println(panggil.getCerita2());
+                break;
+            case 3:
+                System.out.println(panggil.getCerita3());
+                break;
+            case 4:
+                System.out.println(panggil.getCerita4());
+                break;
+            case 5:
+                System.out.println(panggil.getCerita5());
+                break;
+            default:
+                System.out.println("Input salah. Program akan ditutup.");
+                exit(0);
+        }
     }
     
 }
