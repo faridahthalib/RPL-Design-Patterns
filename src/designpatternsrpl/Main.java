@@ -25,7 +25,7 @@ public class Main {
         }
     catch (Exception e)
         {
-        e.printStackTrace ();
+        e.printStackTrace();
         }
     }
     
@@ -64,7 +64,7 @@ public class Main {
         FactoryPattern cerita = new FactoryPattern();
         
         Scanner input = new Scanner(System.in);
-        int pilih = 0;
+        int pilih;
         System.out.println("\nSilakan pilih cerita:\n"
                 + "1.Anak Sima\n2.Asal Mula Sungai Barito\n3.Batu Kasiangan\n4.Kisah Asal Mula Marabahan\n5.Nisan Berlumur Darah\n\nMasukkan pilihan (1/2/3/4/5):");
         
