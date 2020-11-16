@@ -5,6 +5,7 @@ import DecoratorPattern.decorator5;
 import FactoryPattern.FactoryPattern;
 import FactoryPattern.factory;
 import IteratorPattern.iterator1;
+import IteratorPattern.iterator2;
 import static java.lang.System.exit;
 import java.util.Scanner;
 
