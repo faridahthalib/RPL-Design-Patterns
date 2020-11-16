@@ -3,8 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package designpatternsrpl;
 
+
+import FactoryPattern.FactoryPattern;
+import FactoryPattern.factory;
 import static java.lang.System.exit;
 import java.util.Scanner;
 
